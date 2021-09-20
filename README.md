@@ -1,5 +1,5 @@
 # Github-user-search
-<p>Projeto GitHub Search faz buscas por devs apenas colocando seu nome de login.</p>
+<p>Projeto GitHub Search faz buscas por devs que possuem conta no GitHub apenas colocando seu nome de login.</p>
 <p>Tecnologias utilizadas inicialmente: </p>
 <ul>
   <li>HTML5</li>
