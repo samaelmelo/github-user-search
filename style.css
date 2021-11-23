@@ -30,15 +30,15 @@ body{
   width: min(70rem, 80%);
   min-height: 50rem;
   border-radius: 10px;
-  animation: appear 1s .3s forwards;
+  animation: move 1s .3s forwards;
   opacity: 0;
   ;
 }
 
 
-@keyframes appear {
-  from{ opacity: 0; transform: scale(.3); transform:translateY(2rem); }
-  to{ opacity: 1; transform: scale(1); transform: translateY(-1rem);}
+@keyframes move {
+  from{ opacity: 0; ; transform:translateY(2rem);  }
+  to{ opacity: 1; ; transform: translateY(-1rem); }
 }
 
 .container header{
@@ -118,6 +118,7 @@ body{
   display: flex;
   padding: 3rem 2rem ;
   box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.424);
+ 
 }
 
 .dashboard .dashboard-avatar{

@@ -4,8 +4,6 @@ button.addEventListener('click', event => {
   const name = document.querySelector('#text').value
   event.preventDefault()
 
-  console.log('evento prevenido')
-
   if(!name){
     confirm('Insira um valor válido para pesquisa!!!')
     return
@@ -54,10 +52,18 @@ const updateProfile = (data) => {
   link.setAttribute('href', data.url)
   avatar.setAttribute('src',data.avatar)
   avatar.setAttribute('alt', data.login)
-  
 
 }
 
+// const buttonLight = document.querySelector('.material-icons-outlined')
 
-
+// buttonLight.addEventListener('click', event => {
+//   const changeValue = (component, color) => {
+//     document.body.style.background = color
+//   }
+//   if(event.target.className === "material-icons-outlined"){
+//     changeValue('#ddd')
+//     // document.body.style.color = "#03172e;"
+//   }
+// })
 

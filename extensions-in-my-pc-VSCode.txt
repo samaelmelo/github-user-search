@@ -1,0 +1,23 @@
+emojisense
+deprecated debugg
+bracket pair
+code runner
+code snap
+color highlights
+css modules
+omni theme
+es lint
+git lens
+highligh matching
+live server
+material icon
+node js
+npm 
+prettier
+react code snippets
+sbitucs
+svg viewer
+vs code styled component
+
+
+
